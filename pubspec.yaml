@@ -1,16 +1,14 @@
-
-name: app_filmes_flutter_v3
-description: App Flutter de filmes estilo Netflix - só para Android.
+name: app_filmes_flutter
+description: A simple Flutter app de filmes
 publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.17.0 <3.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  google_fonts: ^5.0.0
 
 dev_dependencies:
   flutter_test:

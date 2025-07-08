@@ -1,18 +1,11 @@
 workflows:
-  build-android:
-    name: Build Android APK
+  default-workflow:
+    name: Build Flutter App
     max_build_duration: 15
     environment:
       flutter: stable
-      xcode: latest
     scripts:
-      - name: Get dependencies
-        script: flutter pub get
-      - name: Build APK
-        script: flutter build apk --debug
+      - flutter pub get
+      - flutter build apk
     artifacts:
-      - build/app/outputs/flutter-apk/app-debug.apk
-    publishing:
-      email:
-        recipients:
-          - sergioaldeia4@gmail.com
+      - build/app/outputs/flutter-apk/app-release.apk
