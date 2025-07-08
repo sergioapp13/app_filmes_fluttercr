@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.dark(),
       home: Scaffold(
         appBar: AppBar(title: Text('Filmes e Séries')),
-        body: Center(child: Text('Bem-vindo ao App de Filmes estilo Netflix!')),
+        body: Center(child: Text('BEM VINDO AO MELHOR APP DE FILMES E SERIES')),
       ),
     );
   }
